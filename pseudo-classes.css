@@ -1,0 +1,12 @@
+.block {
+	list-style-type: none;
+	display: inline;
+}
+.inline {
+	display: block;
+	margin: 25px;
+	border: 1px dotted black;
+}
+.n-child section:nth-child(even) {
+	border: 1px dashed black;
+}
